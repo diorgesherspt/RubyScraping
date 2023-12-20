@@ -1,0 +1,46 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (4.15.0)
+    dotenv (2.8.1)
+    json (2.7.1)
+    mongo (2.19.3)
+      bson (>= 4.14.1, < 5.0.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.8)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
+    regexp_parser (2.8.3)
+    rexml (3.2.6)
+    ruby2_keywords (0.0.5)
+    rubyzip (2.3.2)
+    securerandom (0.3.1)
+    selenium-webdriver (4.16.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    sinatra (3.1.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.1.0)
+      tilt (~> 2.0)
+    tilt (2.3.0)
+    watir (7.3.0)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (~> 4.2)
+    websocket (1.2.10)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  dotenv
+  json
+  mongo
+  securerandom
+  sinatra
+  watir
+
+BUNDLED WITH
+   2.5.1
